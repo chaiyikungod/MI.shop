@@ -1,0 +1,173 @@
+.root{
+	max-width: 640px;
+	height: 100vh;
+	margin: 0 auto;
+	background: #f2f2f2;
+}
+.top{
+	height: 1.4rem;
+	width: 100%;
+	width: 100%;
+	padding: 0 0.37rem;
+	box-sizing: border-box;
+}
+.top1{
+	height:1.22rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.top2{
+	width: 100%;
+	height: 0.9rem;
+	background: #008000;
+}
+.logo{
+	height: 0.48rem;
+	width: 0.74rem;
+}
+.logo img{
+	height: 0.48rem;
+	width: 0.74rem;
+	display: block;
+}
+.kuang{
+	width: 7.73rem;
+	height: 0.91rem;
+	box-shadow:0 0 6px #e6e6e6;
+	background: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.kuang img{
+	width: 1rem;
+	height: 1rem;
+	align-items: center;
+	display: block;
+}
+.denglu{
+	width: 0.46rem;
+	height: 0.58rem;
+}
+.denglu-text{
+	font-size: 0.58rem;
+	color: #aeaeae;
+	display: block;
+	line-height: 0.58rem;
+}
+.top3{
+	
+}
+.top3 img{
+	width: 0.5rem;
+	height: 0.61rem;
+	display: block;
+}
+.top .top3 img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.a{
+	font-size: 0.4rem;
+	align-items: center;
+}	
+.wz{
+	width: 100%;
+	height: 0.96rem;
+	display: flex;
+	justify-content: space-between;
+}
+.wz1{
+	width: 80%;
+	height: 0.96rem;
+	padding: 0 0.37rem;
+	font-size: 0.34rem;
+	overflow: hidden;
+	align-items: center;
+}
+.wz1 ul{
+	width: 200%;
+	height: 100%;
+}
+.wz1 ul{
+	display: flex;
+	
+}
+.wz1 ul i{
+	margin-left:0.7rem ;
+	flex-shrink: 0;
+}
+.wz1 ul i:first-child{
+	margin-left: 0;
+}
+.wz2{
+	width: 0.5rem;
+	height: 0.5rem;
+	background: #fff;
+	margin-left: 0.6rem;
+	display: flex;
+}
+	
+.wz2 img{
+	width:100% ;
+	height: 100%;
+}
+.wz3{
+	width: 100%;
+	height: 5.37rem;
+}
+.wz3 img{
+	width: 100%;
+	height: 100%;
+}
+.cddv{
+	height: 4.56rem;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.cddv a{
+	display: block;
+	height: 50%;
+	width: 20%;
+}
+.cddv img{
+	height: 100%;
+	width: 100%;
+	
+} 
+/*菜单*/
+/*model1*/
+.model1{
+	margin-top: 0.25rem;
+	height: 7.70rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.model1l,.model1r{
+	height: 100%;
+	width: 49.5%;
+}
+.model1r{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.model1l img{
+	width: 100%;
+	height: 100%;
+}
+.model1r img{
+	height: 100%;
+	width: 100%;
+}
+.model1r a{
+	display: block;
+	width: 100%;
+	height: 49.5%;
+}
+/*model1*/

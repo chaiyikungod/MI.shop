@@ -80,6 +80,9 @@
 	display: flex;
 	justify-content: space-between;
 }
+.wz{
+	overflow: scroll;
+}
 .wz1{
 	width: 80%;
 	height: 0.96rem;
@@ -91,6 +94,7 @@
 .wz1 ul{
 	width: 200%;
 	height: 100%;
+	overflow: auto;
 }
 .wz1 ul{
 	display: flex;
@@ -171,3 +175,14 @@
 	height: 49.5%;
 }
 /*model1*/
+.cyk{
+	width: 100%;
+	height: 1.4rem;
+	background: red;
+	display: flex;
+}
+.hwf{
+	width: 0.75rem;
+	height: 1.05rem;
+	justify-content: center;
+}

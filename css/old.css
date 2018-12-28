@@ -24,6 +24,7 @@
 	width: 2.27rem;
 	height: 100%;
 	background: #F2F2F2;
+	overflow: auto;
 }
 .fanhui img{
 	width: 0.55rem;
@@ -43,6 +44,7 @@
 .zwr{
 	width: 8.5rem;
 	height: 100rem;
+	overflow: auto;
 	
 }
 .lzn{
@@ -95,14 +97,6 @@
 }
 .zhi1{
 	margin-top: 0.4rem;
-}
-.dibu{
-	height: 1.3rem;
-	width: 100%;
-	background: #fff;
-	position: fixed;
-	bottom: 0;
-	left: 0;
 }
 .dibu1{
 	width: 100%;

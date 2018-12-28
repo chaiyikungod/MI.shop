@@ -83,7 +83,8 @@
 }
 .wz{
 	overflow: scroll;
-}
+	overflow: hidden;
+	}
 .wz1{
 	width: 80%;
 	height: 0.96rem;

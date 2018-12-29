@@ -71,6 +71,7 @@
 	justify-content: space-around;
 	align-items: center;
 	background: #fff;
+	align-items: center;
 }
 .dfk1{
 	width: 1.1rem;
@@ -197,4 +198,8 @@
 	font-size: 0.3rem;
 	color: #FF6700;
 	
+}
+.hy img{
+	width: 0.55rem;
+	height: 0.62rem;
 }

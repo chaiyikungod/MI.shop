@@ -328,3 +328,31 @@
 					<select>
 					<option value ="选中时select的值">下拉时看到的值</option>
 					</select>
+					<caption>表格</caption>
+					<thead>头部</thead>
+					<tbody>身体</tbody>
+					table:
+					  border //设置出现边框
+					  style=“border-collapse:collapse"//边框合并
+					  style/行内样式
+					  caption  //表格的标题
+					  thead  //表格的头部
+					      tr  //行
+					      th  //列，格子
+					  tbody //表格的身体
+					     tr  //行
+					     td  //列，一个格子
+					     colspan="n(数字)"合并列（横排合并）
+						 rowspan="n"（数字）合并行（竖排合并）
+					  tfoot  //表格的底部
+					     tr  //行
+					     th  //列，格子
+			响应式：
+			语法：@media only screen and（min-width:1000px 最小像素）and （max-width:1200px  最大像素）
+			//当屏幕大于1000小于1200时生效}.
+			优点：可以快捷实现不同分辨率设备的布局适应
+			缺点：代码很多，造成页面打开速度变慢
+			     工作量大，效率慢
+				 折中的适应不同设备的方式，显示的效果不佳
+			
+			

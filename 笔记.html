@@ -353,6 +353,59 @@
 			优点：可以快捷实现不同分辨率设备的布局适应
 			缺点：代码很多，造成页面打开速度变慢
 			     工作量大，效率慢
-				 折中的适应不同设备的方式，显示的效果不佳
+				 折中的适应不同设备的方式，显示的效果不佳 
+			
+			animation:动画的名称 动画完成时间 速度曲线 延迟 动画的次数 是否反向 动画状态 动画停留的状态；
+			速度曲线：linear//匀速
+			次数:infinite//永久，无限次数运动
+			是否反向：alternate//反向执行
+			动画的状态：running//动画运行
+			        pused//暂停
+			动画停留状态：backwards//出项在动画开始的位置
+			             forwards//停止在动画结束的位置
+						 both//以上两种结合
+			动画的名称：@keyframes{
+				fiom（开始）{
+					//开始
+				}
+			    to（结束）{
+					//结束
+				}
+			动画完成时间：
 			
 			
+			图片的引入方式：
+			   img，background-image:url()
+			   路径
+			   base64 //减少网络请求，减少相对路径带来的404，图片小于10k时使用
+			   icon //不会失真，可以利用字体属性调整样式
+			   svg   //不会失真，可以多色彩的图标
+			   
+			   
+			   垂直水平居中：
+			   1.确定宽高
+			     left:0;right:0;top:0;bottom:0;margin:auto：
+				 left:50%;top:50%;margin-left:-width/2;margin-top:-height/2;
+				 left:calc(50%-100px);top:calc(50%-100px)
+			   2.不确定宽高
+			     flex布局
+				  
+				 left:50%  //父盒子的50%
+				 tranfrom:tranlatex(-50%)
+				 
+			   3.vertical-align:middle; 中间对齐
+			   
+			   4.<div stylr="display:table;">
+				   <div style="display: table-cell;text-algin:center;vertical-align: middle;">
+					   <div style="display: inline-block;">111</div>
+				   </div>
+				  </div>
+
+
+
+
+
+
+
+
+			   
